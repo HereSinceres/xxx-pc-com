@@ -1,6 +1,6 @@
 /**
  * @author xukai12
- * @email xukai12@baidu.com
+ * @email xukai12
  * @create date 2019-04-29 11:19:29
  * @modify date 2019-04-29 11:19:29
  * @file [description]

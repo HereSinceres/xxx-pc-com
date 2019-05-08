@@ -1,7 +1,7 @@
 {
-  "name": "react-loading-button",
+  "name": "xxx-pc-com",
   "version": "1.0.1",
-  "description": "react-loading-button React component",
+  "description": "xxx-pc-com React component",
   "main": "lib/index.js",
   "scripts": {
     "build": "sh build.sh",
