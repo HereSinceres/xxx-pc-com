@@ -1,0 +1,99 @@
+.ec-num {
+  height: 36px;
+  border: 1px solid #eee;
+  padding: 0px 8px;
+  line-height: 36px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 368px;
+  position: relative;
+  font-size: 12px;
+}
+.ec-num:hover {
+  border-color: #40a9ff;
+}
+.ec-num__before {
+  display: inline-block;
+  color: #999;
+}
+.ec-num__tool {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #eee;
+  width: 16px;
+  line-height: 16px;
+  height: 16px;
+  border-radius: 100%;
+  text-align: center;
+  position: absolute;
+  right: 4px;
+  top: 9px;
+}
+.ec-num__input {
+  outline: none;
+  border: none;
+  padding: 0px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  width: 135px;
+}
+.ec-num__unit.rc-select {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #666;
+  position: absolute;
+  right: 21px;
+  top: 4px;
+  height: 36px;
+  line-height: 36px;
+}
+.ec-num__unit .rc-select-selection {
+  border: none;
+  width: 40px;
+}
+.ec-num__unit.rc-select-enabled .rc-select-selection:hover {
+  border: none;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+.ec-num__unit .rc-select-dropdown-menu {
+  font-size: 12px;
+}
+.ec-num__end-before {
+  display: inline-block;
+  color: #999;
+}
+.ec-num__mark {
+  height: 36px;
+  border: 1px solid #eee;
+  padding: 0px 8px;
+  line-height: 36px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 368px;
+  position: relative;
+  font-size: 12px;
+  outline: none;
+  margin-top: 8px;
+}
+.ec-num__mark:hover {
+  border-color: #40a9ff;
+}
+.ec-num__tool__triggle-popup {
+  position: relative;
+  width: 280px;
+  font-size: 12px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  outline: none;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.ec-num__tool__triggle-popup label {
+  display: block;
+  margin: 4px;
+}
