@@ -4,12 +4,12 @@
   "description": "xxx-pc-com React component",
   "main": "lib/index.js",
   "scripts": {
-    "build": "sh build.sh",
+    "_build": "sh build.sh",
     "sgdev": "npx styleguidist server ",
     "sgbuild": "npx styleguidist build ",
-    "publish-patch": "npm run build && npm version patch && npm publish",
-    "publish-minor": "npm run build && npm version minor && npm publish",
-    "publish-major": "npm run build && npm version major && npm publish"
+    "publish-patch": "npm run _build && npm version patch",
+    "publish-minor": "npm run _build && npm version minor",
+    "publish-major": "npm run _build && npm version major"
   },
   "dependencies": {
     "rc-checkbox": "^2.1.6",
