@@ -10,4 +10,4 @@ module.exports = function (api) {
     };
 }
 // plugins 用于开发 上线需要删除
-// "@babel/plugin-transform-runtime"
+// ,"@babel/plugin-transform-runtime"

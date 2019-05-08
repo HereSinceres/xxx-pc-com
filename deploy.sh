@@ -1,0 +1,1 @@
+scp -r ./styleguide/* root@39.106.13.178:/var/www/component.duoerpu.com 
